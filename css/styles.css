@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+:root {
+  --primary-font: "Inter", sans-serif;
+  --regular-weight: 400;
+  --bold-weight: 700;
+  --extra-bold-weight: 800;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-weight: var(--regular-weight);
+}
+
+p {
+  font-size: 15px;
+  font-weight: var(--regular-weight);
+}
