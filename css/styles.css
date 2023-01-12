@@ -21,6 +21,13 @@ body {
   display: flex;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  font-weight: var(--extra-bold-weight);
+}
+
 h1 {
   font-size: 38px;
   line-height: 38px;
@@ -114,4 +121,44 @@ button {
 .new-article-description {
   color: hsl(36, 100%, 99%);
   opacity: 0.8;
+}
+
+.article-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2em;
+  padding-bottom: 4em;
+}
+
+.article {
+  display: grid;
+  grid-column-gap: 1em;
+  grid-template-columns: minmax(100px, 20%) 1fr;
+  grid-template-rows: minmax(0, min-content) minmax(0, min-content) minmax(
+      0,
+      min-content
+    );
+  grid-template-areas:
+    "img num"
+    "img head"
+    "img description";
+}
+
+.article-img {
+  grid-area: img;
+}
+
+.article-number {
+  grid-area: num;
+  font-size: 28px;
+  font-weight: var(--bold-weight);
+  color: hsl(233, 8%, 79%);
+}
+
+.article-head {
+  grid-area: head;
+}
+
+.article-description {
+  grid-area: description;
 }
