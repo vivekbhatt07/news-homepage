@@ -18,9 +18,52 @@
 body {
   font-family: var(--primary-font);
   font-weight: var(--regular-weight);
+  display: flex;
 }
 
 p {
   font-size: 15px;
   font-weight: var(--regular-weight);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+button {
+  font-family: inherit;
+  background-color: hsl(5, 85%, 63%);
+  border: none;
+  padding: 0.6em 1em;
+  text-transform: uppercase;
+  color: hsl(36, 100%, 99%);
+  font-weight: var(--regular-weight);
+  letter-spacing: 2px;
+}
+
+.wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: none;
+}
+
+.main {
+}
+
+.hero-section {
+}
+
+.hero-desk-img {
+  display: none;
 }
