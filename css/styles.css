@@ -21,6 +21,12 @@ body {
   display: flex;
 }
 
+h1 {
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: var(--extra-bold-weight);
+}
+
 p {
   font-size: 15px;
   font-weight: var(--regular-weight);
@@ -59,11 +65,21 @@ button {
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
 }
 
 .hero-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: flex-start;
 }
 
 .hero-desk-img {
   display: none;
+}
+
+.new-section {
 }
