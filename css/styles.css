@@ -82,4 +82,36 @@ button {
 }
 
 .new-section {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(240, 100%, 5%);
+  padding: 1.5em 1em;
+  gap: 1.5em;
+}
+
+.new-head {
+  text-transform: capitalize;
+  color: hsl(35, 77%, 62%);
+}
+
+.new-article {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.new-article:not(:last-child) {
+  border-bottom: 1px solid hsl(36, 100%, 99%);
+  opacity: 0.8;
+  padding-bottom: 1.8em;
+}
+
+.new-article-head {
+  text-transform: capitalize;
+  color: hsl(36, 100%, 99%);
+}
+
+.new-article-description {
+  color: hsl(36, 100%, 99%);
+  opacity: 0.8;
 }
