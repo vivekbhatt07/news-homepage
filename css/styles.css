@@ -58,7 +58,7 @@ img {
   object-fit: cover;
 }
 
-button {
+.btn {
   font-family: inherit;
   background-color: hsl(5, 85%, 63%);
   border: none;
@@ -67,6 +67,13 @@ button {
   color: hsl(36, 100%, 99%);
   font-weight: var(--regular-weight);
   letter-spacing: 2px;
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: hsl(240, 100%, 5%);
 }
 
 ul {
@@ -130,9 +137,15 @@ ul {
   padding-bottom: 1.8em;
 }
 
-.new-article-head {
+.new-article-head a {
+  text-decoration: none;
   text-transform: capitalize;
   color: hsl(36, 100%, 99%);
+  transition: 0.3s;
+}
+
+.new-article-head a:hover {
+  color: hsl(35, 77%, 62%);
 }
 
 .new-article-description {
@@ -173,6 +186,16 @@ ul {
   grid-area: head;
 }
 
+.article-head a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: #000;
+}
+
+.article-head a:hover {
+  color: hsl(5, 85%, 63%);
+}
+
 .article-description {
   grid-area: description;
 }
@@ -196,6 +219,11 @@ ul {
     color: #000;
     text-transform: capitalize;
     opacity: 0.9;
+    transition: 0.3s;
+  }
+
+  .nav-link:hover {
+    color: hsl(35, 77%, 62%);
   }
 
   .main {
