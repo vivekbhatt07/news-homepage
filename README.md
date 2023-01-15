@@ -11,18 +11,17 @@
 
 ### Screenshot
 
-![desktop-design](https://user-images.githubusercontent.com/93856336/211481458-43145956-2880-4c7f-9d9e-b385e1f3598f.jpg)
-
 ### Links
 
-- Solution URL: (https://github.com/vivekbhatt07/Stats-preview-card-component)
-- Live Site URL: (https://stats-card-view.netlify.app/)
+- Solution URL: (https://github.com/vivekbhatt07/news-homepage)
+- Live Site URL: (https://news-main.netlify.app/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid
 
 ## Author
 
