@@ -10,6 +10,7 @@
 ## Overview
 
 ### Screenshot
+![desktop-preview](https://user-images.githubusercontent.com/93856336/212554137-e0d55f00-6121-4d11-a42a-414b5e1b3efe.jpg)
 
 ### Links
 
